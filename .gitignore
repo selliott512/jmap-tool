@@ -1,0 +1,11 @@
+*~
+*.bak
+*.class
+*.jar
+*.o
+*.obj
+*.orig
+/bin/
+/gen-src/
+/tmp/
+/.svn/

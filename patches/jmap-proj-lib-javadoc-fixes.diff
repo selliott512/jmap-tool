@@ -1,0 +1,33 @@
+diff --git a/src/ch/ethz/karto/gui/LineProjector.java b/src/ch/ethz/karto/gui/LineProjector.java
+index 6e59e0f..1db3c5f 100644
+--- a/src/ch/ethz/karto/gui/LineProjector.java
++++ b/src/ch/ethz/karto/gui/LineProjector.java
+@@ -356,9 +356,6 @@ public class LineProjector {
+ 
+     /**
+      * Projects a vector of lines.
+-     *
+-     * @param lines The lines to project.
+-     * @return A vector with the projected lines.
+      */
+     public void projectLines(ArrayList<MapLine> src, ArrayList<MapLine> dst, Projection projection) {
+ 
+diff --git a/src/ch/ethz/karto/gui/MapLine.java b/src/ch/ethz/karto/gui/MapLine.java
+index 9e19907..077dad4 100644
+--- a/src/ch/ethz/karto/gui/MapLine.java
++++ b/src/ch/ethz/karto/gui/MapLine.java
+@@ -58,7 +58,6 @@ public class MapLine {
+     
+     /**
+      * Add a point at the end of the line.
+-     * @mapPoint The point to add.
+      */
+     public void addPoint(MapPoint mapPoint) {
+         if (Double.isNaN(mapPoint.x) || Double.isNaN(mapPoint.y)) {
+@@ -179,4 +178,4 @@ public class MapLine {
+     }
+ 
+ 
+-}
+\ No newline at end of file
++}
